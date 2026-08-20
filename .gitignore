@@ -1,3 +1,6 @@
+docs/_site
+docs/.sass-cache
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -45,6 +48,7 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+.pytest_cache/
 
 # Translations
 *.mo
@@ -84,8 +88,32 @@ celerybeat-schedule
 venv/
 ENV/
 
+# virtualenv - pypi testing
+venv_pypi/
+
 # Spyder project settings
 .spyderproject
 
 # Rope project settings
 .ropeproject
+
+# Jetbrains
+.idea/
+
+# VS Code
+.vscode/
+ddorn
+
+# Vim
+*.swp
+
+# MacOS
+*/.DS_Store
+
+# asciidots workspace
+workspace/
+
+# todolist file
+.todos.json
+
+.mypy_cache/
